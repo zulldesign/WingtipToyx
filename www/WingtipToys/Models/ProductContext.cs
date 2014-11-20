@@ -1,10 +1,10 @@
 ﻿using System.Data.Entity;
-namespace WingtipToys.Models
+namespace WingtipToyx.Models
 {
     public class ProductContext : DbContext
     {
         public ProductContext()
-            : base("WingtipToys")
+            : base("WingtipToyx")
         {
         }
         public DbSet<Category> Categories { get; set; }

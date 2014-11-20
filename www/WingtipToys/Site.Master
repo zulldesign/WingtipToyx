@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WingtipToys.Site" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WingtipToyx.Site" %>
 <%@ Register assembly="Navigation" namespace="Navigation" tagprefix="nav" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +34,7 @@
     <div id="body">
         <section style="text-align: center; background-color: #fff">
             <asp:ListView ID="categoryList"  
-                ItemType="WingtipToys.Models.Category" 
+                ItemType="WingtipToyx.Models.Category" 
                 runat="server"
                 SelectMethod="GetCategories" >
                 <ItemTemplate>

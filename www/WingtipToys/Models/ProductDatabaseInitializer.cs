@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity;
 
-namespace WingtipToys.Models
+namespace WingtipToyx.Models
 {
     public class ProductDatabaseInitializer : DropCreateDatabaseIfModelChanges<ProductContext>
     {

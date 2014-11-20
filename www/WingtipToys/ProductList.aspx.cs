@@ -2,15 +2,15 @@
 using System;
 using System.Linq;
 using System.Web.UI;
-using WingtipToys.Models;
+using WingtipToyx.Models;
 
-namespace WingtipToys
+namespace WingtipToyx
 {
 	public partial class ProductList : Page
 	{
 		public IQueryable<Product> GetProducts([NavigationData] string categoryName)
 		{
-			var _db = new WingtipToys.Models.ProductContext();
+			var _db = new WingtipToyx.Models.ProductContext();
 			IQueryable<Product> query = _db.Products;
 
 			if (!String.IsNullOrEmpty(categoryName))

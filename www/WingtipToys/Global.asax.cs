@@ -5,9 +5,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
-using WingtipToys.Models;
+using WingtipToyx.Models;
 
-namespace WingtipToys
+namespace WingtipToyx
 {
 	public class Global : System.Web.HttpApplication
 	{

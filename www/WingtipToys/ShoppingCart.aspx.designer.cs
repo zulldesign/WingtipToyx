@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WingtipToys {
+namespace WingtipToyx {
     
     
     public partial class ShoppingCart {

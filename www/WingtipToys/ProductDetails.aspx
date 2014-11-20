@@ -1,7 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProductDetails.aspx.cs" Inherits="WingtipToys.ProductDetails" Title="Product Details" MasterPageFile="~/Site.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProductDetails.aspx.cs" Inherits="WingtipToyx.ProductDetails" Title="Product Details" MasterPageFile="~/Site.Master" %>
 <%@ Register assembly="Navigation" namespace="Navigation" tagprefix="nav" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
-    <asp:FormView ID="productDetails" runat="server" ItemType="WingtipToys.Models.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
+    <asp:FormView ID="productDetails" runat="server" ItemType="WingtipToyx.Models.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
         <ItemTemplate>
             <div>
                 <h1><%#:Item.ProductName %></h1>

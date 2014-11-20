@@ -2,10 +2,10 @@
 using System;
 using System.Linq;
 using System.Web.UI;
-using WingtipToys.Logic;
-using WingtipToys.Models;
+using WingtipToyx.Logic;
+using WingtipToyx.Models;
 
-namespace WingtipToys
+namespace WingtipToyx
 {
 	public partial class Site : MasterPage
 	{
@@ -17,7 +17,7 @@ namespace WingtipToys
 
 		public IQueryable<Category> GetCategories()
 		{
-			var db = new WingtipToys.Models.ProductContext();
+			var db = new WingtipToyx.Models.ProductContext();
 			IQueryable<Category> query = db.Categories;
 			return query;
 		}

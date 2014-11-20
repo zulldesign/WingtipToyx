@@ -1,10 +1,10 @@
 ﻿using Navigation;
 using System.Collections.Generic;
 using System.Web.UI;
-using WingtipToys.Logic;
-using WingtipToys.Models;
+using WingtipToyx.Logic;
+using WingtipToyx.Models;
 
-namespace WingtipToys
+namespace WingtipToyx
 {
 	public partial class ShoppingCart : Page
 	{

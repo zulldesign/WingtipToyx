@@ -1,9 +1,9 @@
 ﻿using Navigation;
 using System;
 using System.Web.UI;
-using WingtipToys.Logic;
+using WingtipToyx.Logic;
 
-namespace WingtipToys
+namespace WingtipToyx
 {
 	public partial class AddToCart : Page
 	{

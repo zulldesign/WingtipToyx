@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace WingtipToys.Models
+namespace WingtipToyx.Models
 {
     public class Category
     {
